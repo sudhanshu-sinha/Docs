@@ -2,6 +2,8 @@
 
 A modern React app featuring draggable cards with animations using `framer-motion`, styled with Tailwind CSS, and enhanced with icons from `react-icons`.
 
+🌐 **Live Demo:** [Click Here...](https://docs-six-rho-98.vercel.app/)
+
 ---
 
 ## 🚀 Features
@@ -20,19 +22,6 @@ A modern React app featuring draggable cards with animations using `framer-motio
 - **Tailwind CSS**
 - **Framer Motion**
 - **React Icons**
-
----
-
-## 📁 Project Structure
-
-src/
-├── components/
-│ ├── Card.jsx # Reusable draggable card component
-│ └── Foreground.jsx # Layout and logic for rendering multiple cards
-├── App.jsx # Root component
-├── main.jsx # Entry point
-└── index.css # Tailwind base styles
-
 
 ---
 
@@ -56,7 +45,8 @@ src/
 
 ## 🖼️ Screenshots
 
-Add screenshots or a short gif of your app here if available.
+![image](https://github.com/user-attachments/assets/2b27b2f9-37a3-47cb-802a-320e93556a0d)
+![image](https://github.com/user-attachments/assets/928fe4a2-7359-4828-8e7b-042e5b893dd3)
 
 
 ---
@@ -80,7 +70,23 @@ MIT License
 
 ## 🙋‍♂️ Author
 Created by Sudhanshu Sinha
-GitHub
+
+[GitHub](https://github.com/sudhanshu-sinha)
+
+
+----
+
+## 📁 Project Structure
+
+   ```bash
+   src/
+   ├── components/
+   │   ├── Background.jsx   # Background visual or logic component
+   │   ├── Card.jsx         # Reusable draggable card component
+   │   └── Foreground.jsx   # Layout and logic for rendering multiple cards
+   ├── App.jsx              # Root component
+   ├── main.jsx             # Entry point
+   └── index.css            # Tailwind base styles
 
 
 
