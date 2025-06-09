@@ -1,12 +1,87 @@
-# React + Vite
+# 🧩 React Draggable Docs. App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React app featuring draggable cards with animations using `framer-motion`, styled with Tailwind CSS, and enhanced with icons from `react-icons`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🖱️ **Draggable Cards** – Drag and drop cards within a constrained area.
+- 🎨 **Styled with Tailwind CSS** – Utility-first CSS for fast UI development.
+- 🎞️ **Smooth Animations** – Powered by `framer-motion`.
+- 🔒 **Unselectable Text** – Prevents unwanted text highlighting.
+- 🌙 **Dark UI** – Uses semi-transparent dark backgrounds for a modern feel.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **Framer Motion**
+- **React Icons**
+
+---
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── Card.jsx # Reusable draggable card component
+│ └── Foreground.jsx # Layout and logic for rendering multiple cards
+├── App.jsx # Root component
+├── main.jsx # Entry point
+└── index.css # Tailwind base styles
+
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/sudhanshu-sinha/Docs.git
+   cd Docs
+
+2. **Install dependencies**
+   ```bash
+   npm install
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+
+
+---
+
+## 🖼️ Screenshots
+
+Add screenshots or a short gif of your app here if available.
+
+
+---
+
+## 💡 Tips
+
+Ensure user-select: none is applied correctly via Tailwind's select-none or inline styles for unselectable text.
+
+Each item rendered via .map() must include a unique key prop to avoid React warnings.
+
+Use dragConstraints with framer-motion to prevent cards from being dragged outside a specific area.
+
+
+---
+
+## 📜 License
+MIT License
+
+
+---
+
+## 🙋‍♂️ Author
+Created by Sudhanshu Sinha
+GitHub
+
+
+
+
